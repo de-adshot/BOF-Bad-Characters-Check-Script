@@ -6,5 +6,5 @@ print(r"By default \00 is a bad characters and is omited in the output")
 print("")
 n = 4*count
 for i in range(0, len(str), n):
-	val = "badchars =" + '"' + str[i:i+n] + '"'
+	val = "#badchars =" + '"' + str[i:i+n] + '"'
 	print val
